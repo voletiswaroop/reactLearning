@@ -1,0 +1,129 @@
+@font-face {
+  font-family: GothamHTF;
+  src: url("./GothamHTF-Book.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.header-top {
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+  background: #000;
+  font-family: OpenSans;
+}
+
+.navigation {
+  display: flex;
+  overflow: hidden;
+  padding: 23px 50px 17px;
+  justify-content: space-between;
+}
+
+.navigation-items {
+  padding-top: 14px;
+}
+
+.navigation-items li:last-child {
+  padding-left: 38px;
+}
+
+.logo {
+  height: 49px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.navigation-items li,
+.site-info li {
+  float: left;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 2px;
+}
+
+.site-info {
+  padding-top: 9px;
+}
+
+.site-info li:first-child {
+  padding-top: 5px;
+}
+
+.site-info li:nth-child(2) {
+  padding: 0 20px 0 37px;
+}
+
+@media all and (max-width: 768px) {
+  .navigation {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .navigation-items,
+  .site-info li:first-child {
+    display: none;
+  }
+
+  .navlines {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .navlines span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transition: all .5s ease;
+  }
+
+  .navlines span:nth-child(1) {
+    top: 0px;
+  }
+
+  .navlines span:nth-child(2) {
+    top: 10px;
+  }
+
+  .navlines span:nth-child(3) {
+    top: 20px;
+  }
+
+  .cart {
+    position: relative;
+  }
+
+  .cart::after {
+    position: absolute;
+    content: '2';
+    background: #7dc242;
+    color: #fff;
+    border-radius: 100%;
+    top: -5px;
+    right: -7px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
