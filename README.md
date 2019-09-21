@@ -1,4 +1,4 @@
-# reactecommerce.github.io
+# ReactEcommerce website
 Its a Ecommerce website build using React
 
 # Use node version v8.9.4
