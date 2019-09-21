@@ -18,7 +18,7 @@ server is started from `src/index.js`.
 
 # Demo
 For Desktop ![Desktop demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/desktop.png)
-For Mobile ![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.png)
+For Mobile ![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.jpg)
 
 # Copyright and License
 Copyright 2019 Blackrock Digital LLC. Code released under the MIT license.
