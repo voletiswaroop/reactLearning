@@ -8,7 +8,7 @@ Clone the repo git clone https://github.com/voletiswaroop/reactEcommerce.git
 cd reactEcommerce
 ```
 
-# Use node version v8.9.4
+## Use node version v8.9.4
 
 ```
 $ npm i
