@@ -17,8 +17,11 @@ The react app's entry point is `src/shared/App.js` and the express
 server is started from `src/index.js`.
 
 # Demo
-For Desktop ![Desktop demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/desktop.png)
-For Mobile ![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.jpg)
+## Desktop 
+![Desktop demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/desktop.png)
+
+## Mobile 
+![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.jpg)
 
 # Copyright and License
 Copyright 2019 Blackrock Digital LLC. Code released under the MIT license.
