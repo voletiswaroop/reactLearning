@@ -24,4 +24,4 @@ server is started from `src/index.js`.
 ![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.jpg)
 
 # Copyright and License
-Copyright 2019 Blackrock Digital LLC. Code released under the MIT license.
+Copyright 2019 Voleti Swaroop. Code released under the MIT license.
