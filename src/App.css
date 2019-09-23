@@ -21,3 +21,26 @@ li {
   max-width: 1440px;
   margin: 0 auto
 }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  background: transparent;
+  z-index: 1;
+  font-size: 0;
+}
+
+.slick-arrow.slick-prev {
+  left: 0;
+  border-right: 10px solid blue;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+  border-left: 10px solid blue;
+}

@@ -178,29 +178,6 @@ button.addtocart {
   height: 60px;
 }
 
-.product-gallery-list .slick-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  border: 0;
-  background: none;
-  font-size: 0;
-  z-index: 2;
-}
-
-.slick-next {
-  right: 0;
-}
-
-.product-gallery-list .slick-arrow:after {
-  content: 'hi';
-  font-size: 20px;
-  font-family: slick;
-  font-size: 20px;
-  line-height: 1;
-  opacity: .75;
-}
-
 @media all and (min-width: 769px) {
   .product-gallery {
     width: 66.5%;

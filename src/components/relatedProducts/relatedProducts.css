@@ -42,6 +42,7 @@
 
   .related-products-details {
     overflow: hidden;
+    position: relative;
   }
 }
 
