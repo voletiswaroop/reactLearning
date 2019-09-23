@@ -1,6 +1,7 @@
 import React from 'react';
 import './relatedProducts.css';
 import axios from 'axios'
+import Slider from 'react-slick';
 
 export default class relatedProducts extends React.Component {
   constructor(props) {
@@ -23,29 +24,38 @@ export default class relatedProducts extends React.Component {
   }
   render() {
     let productDetailsList = this.state.productDetails && this.state.productDetails
-    let productsImg = this.state.productImg && this.state.productImg.slice(0, 4).map((item, index) => {
-      return (
-        <img key={index} src={item.url} alt="product-img" />
-      )
+    let productsDetails, sliderSettings, loadProducts;
+    productDetailsList.map(item => {
+      productsDetails = this.state.productImg && this.state.productImg.slice(0, productDetailsList.length).map((img, index) => {
+        return (
+          <div key={index}>
+            <img key={index} src={img.url} className="product-img" alt="product-img" />
+            <p className="related-product-name">{item.name}</p>
+            <p className="related-product-price">${item.price}</p>
+          </div>
+        )
+      })
     })
-    let products = productDetailsList.slice(0, 4).map((item, index) => {
-      return (
-        <div key={index}>
-          <div className="related-product-name">{item.name}</div>
-          <div className="related-product-price">${item.price}</div>
-        </div>
-      )
-    })
+    if (window.innerWidth > 768) {
+      console.log('hi');
 
+      sliderSettings = {
+        dots: false,
+        autoplay: false,
+        infinite: true,
+        variableWidth: true,
+        swipeToSlide: true,
+      };
+      loadProducts = <Slider {...sliderSettings} > {productsDetails}</Slider>
+    } else {
+      loadProducts = productsDetails
+    }
     return (
       <section className="related-products-wrapper">
         <p className="title">You’ll Also Like</p>
         <div className="related-products">
-          <div className="product-img">
-            {productsImg}
-          </div>
-          <div className="related-product-details">
-            {products}
+          <div className="related-products-details">
+            {loadProducts}
           </div>
         </div>
       </section>
