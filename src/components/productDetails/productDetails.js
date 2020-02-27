@@ -24,10 +24,10 @@ export default class productDetails extends React.Component {
   }
   render() {
     let productInitialImages = this.state.productImg && this.state.productImg.slice(0, 1).map((item, index) => {
-      return (<img src={item.url} key={index} />)
+      return (<img alt="img" src={item.url} key={index} />)
     })
     let productImages = this.state.productImg && this.state.productImg.map((item, index) => {
-      return (<img src={item.url} key={index} />)
+      return (<img alt="img" src={item.url} key={index} />)
     })
     let sliderSettings = {
       dots: false,

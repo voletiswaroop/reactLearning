@@ -44,3 +44,23 @@ li {
   right: 0;
   border-left: 10px solid blue;
 }
+
+.main-header {
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.main-header a {
+  font-family: GothamHTF;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navigation-menu {
+  float: right;
+}
+
+.navigation-menu a {
+  margin-left: 10px;
+
+}

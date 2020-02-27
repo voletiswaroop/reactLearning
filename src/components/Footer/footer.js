@@ -54,8 +54,8 @@ export default class Footer extends React.Component {
                 <input className="subscribe" type="text" placeholder="Enter email" />
                 <button className="subscribe-btn" type="submit">JOIN US</button>
               </li>
-              <li className="list-icon"><img src={instaIcon} /></li>
-              <li className="list-icon"><img src={fbIcon} /></li>
+              <li className="list-icon"><img alt="img" src={instaIcon} /></li>
+              <li className="list-icon"><img alt="img" src={fbIcon} /></li>
             </ul>
           </div>
           <div className="footer-menu mobile">
@@ -65,8 +65,8 @@ export default class Footer extends React.Component {
                 <input className="subscribe" type="text" placeholder="Enter email" />
                 <button className="subscribe-btn" type="submit">JOIN US</button>
               </li>
-              <li className="list-icon"><img src={instaIcon} /></li>
-              <li className="list-icon"><img src={fbIcon} /></li>
+              <li className="list-icon"><img alt="img" src={instaIcon} /></li>
+              <li className="list-icon"><img alt="img" src={fbIcon} /></li>
             </ul>
             <ul>
               <li className="list-title">SHOP</li>

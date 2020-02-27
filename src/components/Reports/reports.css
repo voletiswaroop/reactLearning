@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: GothamHTF;
+  font-size: 15px;
+  line-height: normal;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.test-results {
+  margin-left: 50px;
+  background: cornflowerblue;
+  height: 200px;
+  position: relative;
+}
+
+.test-details,
+.test-details p {
+  display: inline-block;
+}
+
+.test-details {
+  margin-top: 50px;
+}
+
+.test-details p {
+  border-top: 1px solid #000;
+  padding: 10px 0 0 50px;
+}
+
+.test-result {
+  background: green;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0;
+}
+
+.test-detailed-report {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 400px;
+}
+
+.test-detailed-report p {
+  padding-top: 10px;
+  border-bottom: 1px solid #000;
+}
