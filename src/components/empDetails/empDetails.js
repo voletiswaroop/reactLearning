@@ -37,7 +37,9 @@ export default class empDetails extends Component {
     return (
       <div className="empdetails-wrapper">
         <div className="empdetails">
+          <p>Displaying Empolyee address on click of empplyee details</p>
           <ul>
+            <li><span>Emp Number</span><span>Emp Name</span><span>Emp Age</span><span>Emp Gender</span></li>
             {empDetailsData}
           </ul>
         </div>

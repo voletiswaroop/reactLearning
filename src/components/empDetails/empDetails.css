@@ -1,7 +1,7 @@
 .empdetails-wrapper {
   width: 100%;
   max-width: 1280px;
-  margin: auto;
+  margin: 50px auto;
   display: flex;
 }
 
@@ -11,7 +11,11 @@
 }
 
 .empaddress {
-  padding-left: 20px;
+  padding: 35px 0 0 20px;
+}
+
+.empdetails p {
+  margin-bottom: 20px;
 }
 
 .empdetails li {

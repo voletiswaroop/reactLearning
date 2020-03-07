@@ -1,15 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css'
-import HeaderComp from './components/Header/header'
-import Breadcrumb from './components/Breadcrumb/Breadcrumb'
-import ProductDetails from './components/productDetails/productDetails'
-import RelatedProducts from './components/relatedProducts/relatedProducts'
-import FooterComp from './components/Footer/footer'
+import Home from './components/home'
+import HeaderComp from './components/Ecommerce/Header/header'
+import Breadcrumb from './components/Ecommerce/Breadcrumb/Breadcrumb'
+import ProductDetails from './components/Ecommerce/productDetails/productDetails'
+import RelatedProducts from './components/Ecommerce/relatedProducts/relatedProducts'
+import FooterComp from './components/Ecommerce/Footer/footer'
 import Reports from './components/Reports/reports'
 import Dictionary from './components/DictionaryManagement/dictionary'
 import EmpDetails from './components/empDetails/empDetails'
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from './components/home'
+import StopWatch from './components/stopWatch/stopWatch'
 function App() {
   return (
     <div className="product-page">
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/dictionary' render={() => (<Dictionary />)} />
         <Route exact path='/empdetails' render={() => (<EmpDetails />)} />
         <Route exact path='/ecommerce' render={() => (<React.Fragment><HeaderComp /><Breadcrumb /><ProductDetails /><RelatedProducts /><FooterComp /></React.Fragment>)} />
+        <Route exact path='/stopwatch' render={() => (<StopWatch />)} />
       </Router>
     </div>
   );

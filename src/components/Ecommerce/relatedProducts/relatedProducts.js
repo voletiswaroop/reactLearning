@@ -26,15 +26,19 @@ export default class relatedProducts extends React.Component {
     let productDetailsList = this.state.productDetails && this.state.productDetails
     let productsDetails, sliderSettings, loadProducts;
     productDetailsList.map(item => {
-      productsDetails = this.state.productImg && this.state.productImg.slice(0, productDetailsList.length).map((img, index) => {
-        return (
-          <div key={index}>
-            <img key={index} src={img.url} className="product-img" alt="product-img" />
-            <p className="related-product-name">{item.name}</p>
-            <p className="related-product-price">${item.price}</p>
-          </div>
-        )
-      })
+      return (
+        <div>
+          {productsDetails = this.state.productImg && this.state.productImg.slice(0, productDetailsList.length).map((img, index) => {
+            return (
+              <div key={index}>
+                <img key={index} src={img.url} className="product-img" alt="product-img" />
+                <p className="related-product-name">{item.name}</p>
+                <p className="related-product-price">${item.price}</p>
+              </div>
+            )
+          })}
+        </div>
+      )
     })
     if (window.innerWidth > 768) {
       console.log('hi');
