@@ -2,4 +2,4 @@
 
 ## Demo
 
-(https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/demoImages/craed.png)
+![Demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/demoImages/craed.png)
