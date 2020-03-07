@@ -1,14 +1,14 @@
-# ReactEcommerce website
+# ReactLearning website
 
-Its a Ecommerce website build using React
+Its a Learning website build using React
 
 # Setup
 
 ## install
 
 ```
-Clone the repo git clone https://github.com/voletiswaroop/reactEcommerce.git
-cd reactEcommerce
+Clone the repo git clone https://github.com/voletiswaroop/reactLearning.git
+cd reactLearning
 ```
 
 ## Use node version v8.9.4
@@ -26,22 +26,12 @@ The react app's entry point is `src/shared/App.js` and the express server is sta
 
 This Project contains multiple react projects listed below:
 
-- React Ecommerce
-- React based Test/QA results report generator using graphs
-- React CRAED(Create, Read, Add, Edit and Delete) application
-- Employee details
-- React Stopwatch
-
-# React Ecommerce Demo
-
-## Desktop
-
-![Desktop demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/desktop.png)
-
-## Mobile
-
-![Mobile demo](https://raw.githubusercontent.com/voletiswaroop/reactEcommerce/master/src/mobile.jpg)
+- [React Ecommerce](https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/Ecommerce)
+- [React based Test/QA results report generator using graphs](https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/Reports)
+- [React CRAED(Create, Read, Add, Edit and Delete) application](https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/DictionaryManagement)
+- [Employee details](https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/empDetails)
+- [React Stopwatch](https://github.com/voletiswaroop/reactLearning/tree/develop/src/components/stopWatch)
 
 # Copyright and License
 
-Copyright 2019 Voleti Swaroop. Code released under the MIT license.
+Copyright 2019 Voleti Swaroop Gupta. Code released under the MIT license.

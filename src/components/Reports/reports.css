@@ -16,6 +16,12 @@ body {
   margin: 20px auto;
 }
 
+.test-report-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .test-results {
   margin-left: 50px;
   background: cornflowerblue;
@@ -46,13 +52,18 @@ body {
 }
 
 .test-detailed-report {
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
-width: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 420px;
 }
 
 .test-detailed-report p {
   padding-top: 10px;
   border-bottom: 1px solid #000;
+  width: calc(100%/5);
+}
+
+.testreport-results>p {
+  margin-bottom: 35px;
 }
