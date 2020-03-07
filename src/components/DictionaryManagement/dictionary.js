@@ -72,12 +72,6 @@ export default class dictionary extends Component {
           } else {
             e.target.innerText = 'Edit'
           }
-          // currentItem.innerHTML('<input type="text" value="hi"/>')
-          // currentItem.remove();
-          // let modifiedDictionary = JSON.parse(localStorage.getItem('myDictionary'))
-          // delete modifiedDictionary[e.target.getAttribute('key')];
-          // modifiedDictionary = modifiedDictionary.filter(function () { return true });
-          // localStorage.setItem("myDictionary", JSON.stringify(modifiedDictionary))
         })
       })
     )
