@@ -1,6 +1,6 @@
-# ReactLearning website
+# ReactLearning project
 
-Its a Learning website build using React
+There are list of Learning project build using React application
 
 # Setup
 
