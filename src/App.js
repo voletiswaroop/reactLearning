@@ -16,6 +16,7 @@ function App() {
     <div className="product-page">
       <Router>
         <Route render={() => (<Home />)} />
+        <Route exact path='/' render={() => (<StopWatch />)} />
         <Route exact path='/reports' render={() => (<Reports />)} />
         <Route exact path='/dictionary' render={() => (<Dictionary />)} />
         <Route exact path='/empdetails' render={() => (<EmpDetails />)} />
