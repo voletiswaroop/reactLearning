@@ -2,7 +2,7 @@
   "name": "react-learning",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://voletiswaroop.github.io/react-learning",
+  "homepage": "https://voletiswaroop.github.io/reactLearning",
   "author": {
     "name": "Swaroop Gupta Voleti"
   },
@@ -12,7 +12,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.4.3",
     "react-slick": "^0.25.2"
   },
   "devDependencies": {
