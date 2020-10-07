@@ -14,9 +14,8 @@ import StopWatch from './components/stopWatch/stopWatch'
 function App() {
   return (
     <div className="product-page">
-      <Router>
+      <Router basename="/reactLearning">
         <Route render={() => (<Home />)} />
-        <Route exact path='/' render={() => (<StopWatch />)} />
         <Route exact path='/reports' render={() => (<Reports />)} />
         <Route exact path='/dictionary' render={() => (<Dictionary />)} />
         <Route exact path='/empdetails' render={() => (<EmpDetails />)} />
