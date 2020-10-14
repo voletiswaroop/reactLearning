@@ -14,13 +14,13 @@ import StopWatch from './components/stopWatch/stopWatch'
 function App() {
   return (
     <div className="product-page">
-      <Router basename="/reactLearning">
+      <Router>
         <Route render={() => (<Home />)} />
-        <Route exact path='/reports' render={() => (<Reports />)} />
-        <Route exact path='/dictionary' render={() => (<Dictionary />)} />
-        <Route exact path='/empdetails' render={() => (<EmpDetails />)} />
-        <Route exact path='/ecommerce' render={() => (<React.Fragment><HeaderComp /><Breadcrumb /><ProductDetails /><RelatedProducts /><FooterComp /></React.Fragment>)} />
-        <Route exact path='/stopwatch' render={() => (<StopWatch />)} />
+        <Route exact path={`${process.env.PUBLIC_URL}/reports`} render={() => (<Reports />)} />
+        <Route exact path={`${process.env.PUBLIC_URL}/dictionary`} render={() => (<Dictionary />)} />
+        <Route exact path={`${process.env.PUBLIC_URL}/empdetails`} render={() => (<EmpDetails />)} />
+        <Route exact path={`${process.env.PUBLIC_URL}/ecommerce`} render={() => (<React.Fragment><HeaderComp /><Breadcrumb /><ProductDetails /><RelatedProducts /><FooterComp /></React.Fragment>)} />
+        <Route exact path={`${process.env.PUBLIC_URL}/stopwatch`} render={() => (<StopWatch />)} />
       </Router>
     </div>
   );

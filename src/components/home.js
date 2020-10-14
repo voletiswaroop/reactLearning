@@ -11,11 +11,11 @@ export default class home extends Component {
             <img src={logo} alt="Swaroop Gupta Voleti" />
           </a>
           <div className="navigation-menu">
-            <Link to='/ecommerce'>Ecommerce |</Link>
-            <Link to='/reports'>Reports |</Link>
-            <Link to='/dictionary'>CRAED |</Link>
-            <Link to='/empdetails'>Empolyee Details |</Link>
-            <Link to='/stopwatch'>Stop Watch</Link>
+            <Link to={`${process.env.PUBLIC_URL}/ecommerce`}>Ecommerce |</Link>
+            <Link to={`${process.env.PUBLIC_URL}/reports`}>Reports |</Link>
+            <Link to={`${process.env.PUBLIC_URL}/dictionary`}>CRAED |</Link>
+            <Link to={`${process.env.PUBLIC_URL}/empdetails`}>Empolyee Details |</Link>
+            <Link to={`${process.env.PUBLIC_URL}/stopwatch`}>Stop Watch</Link>
           </div>
         </div>
       </div>
